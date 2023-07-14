@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Betalent</title>
+  </head>
+  <body>
+    <h1><a a href="./index.html">Gatti</a></h1>
+    <nav>
+      <ul>
+        <li><a href="./lungo.html">gatti a pelo lungo</a></li>
+        <li><a href="./corto.html">gatti a pelo corto</a></li>
+        <li><a href="./europeo.html">gatti europei</a></li>
+        <li><a href="./adotta.html">adotta un gatto</a></li>
+      </ul>
+    </nav>
+
+    <form name="esercizio" method="get">
+      <label for="nome">Nome: </label>
+      <input id="nome" type="text" placeholder="name" />
+      <br />
+      <fieldset>
+        <legend>Colore:</legend>
+        <input type="radio" name="colore" value="bianco" />bianco
+        <input type="radio" name="colore" value="nero" />nero
+        <input type="radio" name="colore" value="mix" />mix
+      </fieldset>
+
+      <fieldset>
+        <legend>Sesso:</legend>
+        <select name="sesso">
+          <option value="maschio">Maschio</option>
+          <option value="femmina">Femmina</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Options:</legend>
+        <input type="checkbox" name="options" value="trasportino" />trasportino
+        <input type="checkbox" name="options" value="cassettina" />cassettina
+      </fieldset>
+      <br />
+      <textarea name="testo" rows="10" cols="50"> </textarea>
+
+      <br /><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
